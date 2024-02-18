@@ -1,0 +1,12 @@
+.close{
+    display: none;
+}
+.todo_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 8px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #74dcffaf;
+}

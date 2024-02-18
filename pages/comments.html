@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+  />
+
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <title>Comments</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container header__container">
+          <div class="header__logo">
+            <!-- <img src="" alt=""> -->
+            <a href="../index.html" class="logo">Logo</a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__ul">
+              <li><a href="../index.html" class="header__link">Home</a></li>
+              <li><a href="#" class="header__link header__link--active">Posts</a></li>
+              <li><a href="./pages/photos.html" class="header__link">Photos</a></li>
+              <li><a href="./pages/todos.html" class="header__link">ToDO</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <main>
+        <div class="container hero__container">
+            <h1 class="title">Comments <span class="user_id"></span></h1>
+            <div class="loading">
+                <img src="../assets/images/loading.svg" alt="">
+            </div>
+            <div class="comments_boxes posts_boxes"></div>
+        </div>
+    </main>
+    <script src="../assets/js/comments.js"></script>
+</body>
+</html>
